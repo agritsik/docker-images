@@ -7,7 +7,6 @@
 *.jar
 *.war
 *.ear
-target/
 
 # idea
 .idea/
