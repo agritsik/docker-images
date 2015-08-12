@@ -1,10 +1,10 @@
-# Glassfish container configured for Blog app
+# Glassfish container configured for java ee app
 #
 # VERSION	0.1
 
 FROM glassfish
 MAINTAINER Andrii Grytsyk
-RUN apt-get update && apt-get install -y vim
+RUN apt-get update
 
 RUN curl http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.34/mysql-connector-java-5.1.34.jar -o glassfish/lib/mysql-connector-java-5.1.34.jar
 
