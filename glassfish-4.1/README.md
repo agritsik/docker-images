@@ -2,7 +2,7 @@
 
 Configuration:
 * password = mypass
-* user = myuser"
+* user = myuser
 * url = jdbc:mysql://db:3306/mydb
 * jndi name = jdbc/app
 
